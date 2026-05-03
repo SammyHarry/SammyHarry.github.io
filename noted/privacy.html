@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weavin Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy policy draft for Weavin, a conversation memory app for networking, meetings, and follow-ups."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <nav class="nav" aria-label="Main">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Weavin</span>
+        </a>
+        <div class="nav-links">
+          <a href="./support.html">Support</a>
+          <a href="./privacy.html">Privacy</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="eyebrow">Privacy Policy</div>
+        <h1>How Weavin handles conversation and contact data</h1>
+        <p class="lede">
+          Weavin helps you remember conversations by recording sessions you
+          explicitly start, preparing notes from those sessions, and saving
+          editable contact cards and follow-up reminders.
+        </p>
+        <p class="meta">Effective date: May 3, 2026</p>
+      </section>
+
+      <section class="notice">
+        <strong>Review note:</strong> this page should be rechecked when
+        Weavin's providers, retention settings, or launch data practices change.
+      </section>
+
+      <article class="content">
+        <h2>Information We Collect And Use</h2>
+
+        <h3>Account Information</h3>
+        <p>
+          If you create an account, Weavin uses your email address and Supabase
+          account identifier for sign in, password reset, email confirmation,
+          account deletion, and cloud contact-card sync.
+        </p>
+
+        <h3>Audio And Transcripts</h3>
+        <p>
+          Weavin records audio only after you explicitly start a session. Audio
+          may be sent to Weavin's backend and OpenAI to create transcripts and
+          conversation notes. Weavin's backend does not intentionally store raw
+          audio after processing. The app stores local recordings, session
+          history, transcripts, summaries, notes, and evidence snippets locally
+          on your device while the session remains saved.
+        </p>
+
+        <h3>Contact Cards And Follow-Ups</h3>
+        <p>
+          Weavin stores saved people, names, companies, titles, LinkedIn URLs,
+          notes, tags, follow-up suggestions, follow-up reminders, and related
+          conversation context locally on your device. If you are signed in and
+          cloud sync is available, Weavin syncs saved contact cards to Supabase
+          so they are tied to your account.
+        </p>
+
+        <h3>Profile Context And Profile Lookup</h3>
+        <p>
+          You may provide profile context such as your name, school, major,
+          company, role, LinkedIn URL, and goals. Weavin uses this context to
+          improve conversation notes and profile matching. When profile lookup
+          is enabled, Weavin may send names, companies, roles, schools, and
+          related context to Weavin's backend, OpenAI, and SerpApi-backed search
+          to find likely public profile matches.
+        </p>
+
+        <h3>Notifications</h3>
+        <p>
+          Weavin can schedule local follow-up reminders and live insight
+          notifications if you allow notifications. Reminder content may include
+          a saved person's name or an AI-generated live cue. Weavin does not
+          currently collect push notification tokens for a server-side push
+          service.
+        </p>
+
+        <h3>Diagnostics And Service Logs</h3>
+        <p>
+          Weavin's backend records request metadata needed to operate and
+          protect the service, such as route, status code, latency, provider,
+          operation, token counts when available, API request counts, and error
+          type. Source-level backend logs are designed not to include raw audio,
+          full transcripts, request bodies, access tokens, service-role keys, or
+          provider API keys. Production hosting providers may also generate
+          infrastructure logs such as IP address, timestamp, and request
+          metadata.
+        </p>
+
+        <h2>How We Use Information</h2>
+        <p>
+          Weavin uses information for app functionality: account access, session
+          transcription, contact-card creation, profile matching, live
+          conversation cues, follow-up reminders, cloud contact-card sync,
+          account deletion, rate limiting, fraud and abuse prevention,
+          reliability, and support.
+        </p>
+        <p>
+          Weavin does not use your data for third-party advertising and does not
+          sell your data. Weavin does not currently use data for tracking as
+          Apple defines tracking for App Store privacy labels.
+        </p>
+
+        <h2>Third-Party Processors</h2>
+        <p>Weavin uses:</p>
+        <ul>
+          <li>Supabase for authentication and cloud contact-card storage.</li>
+          <li>
+            OpenAI for transcription, conversation intelligence, speaker
+            attribution, live insights, and profile lookup.
+          </li>
+          <li>
+            SerpApi for profile-search candidates when the SerpApi-backed
+            profile search feature is enabled.
+          </li>
+          <li>
+            Apple and the device operating system for local notification prompts
+            and scheduled notifications.
+          </li>
+          <li>
+            The production hosting provider for running Weavin's backend and
+            collecting infrastructure logs.
+          </li>
+        </ul>
+        <p>
+          Before publishing this policy, verify the production accounts,
+          regions, data processing terms, and retention settings for each
+          provider.
+        </p>
+
+        <h2>Storage And Retention</h2>
+        <h3>Local Data</h3>
+        <p>
+          Session history, transcripts, local recording files, saved people,
+          plans, settings, profile context, reminder state, and profile lookup
+          cache are stored locally on your device unless a future release
+          explicitly adds cloud backup for those data types.
+        </p>
+
+        <h3>Cloud Data</h3>
+        <p>
+          At launch, Weavin cloud sync is contact-card-only. Signed-in users may
+          have contact cards stored in Supabase. Weavin does not currently
+          market or provide full cloud backup for recordings, transcripts,
+          session history, planned conversations, settings, or personalization
+          context.
+        </p>
+
+        <h3>Provider Retention</h3>
+        <p>
+          OpenAI API platform data handling is governed by OpenAI's API data
+          controls and applicable account settings. SerpApi and Supabase
+          processing is governed by their applicable terms, privacy, security,
+          and data processing documents. Verify current provider retention
+          settings before publishing this policy.
+        </p>
+
+        <h2>Deletion Choices</h2>
+        <p>
+          <strong>Clear History</strong> removes saved sessions, tracked local
+          recording files, people, profile options, and reminders from the
+          device. It does not delete your Weavin account or cloud-synced contact
+          cards.
+        </p>
+        <p>
+          <strong>Reset Local Data</strong> clears local sessions, tracked local
+          recording files, people, plans, settings, profile context, and
+          reminders on the device. It does not delete your Weavin account or
+          cloud-synced contact cards.
+        </p>
+        <p>
+          <strong>Delete Account</strong> permanently deletes your Supabase Auth
+          account and cloud contact cards, then clears local app data on that
+          device. Some provider or infrastructure logs may remain for security,
+          abuse prevention, legal, or backup purposes according to provider
+          retention policies.
+        </p>
+
+        <h2>Security</h2>
+        <p>
+          Weavin uses HTTPS for backend requests, Supabase Auth for user
+          authentication, backend service-role credentials only on the server,
+          row-level security for cloud contact-card tables, backend rate limits,
+          upload safety limits, and source-level logging controls that avoid raw
+          request bodies and secrets.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Weavin is not intended for children under 13. Do not use Weavin to
+          record or process a child's personal information.
+        </p>
+
+        <h2>Changes</h2>
+        <p>
+          We may update this privacy policy as Weavin changes. The effective
+          date above will be updated when the policy changes.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Privacy contact:
+          <a href="mailto:seharrington@wm.edu">seharrington@wm.edu</a>
+        </p>
+        <p>
+          Support URL:
+          <a href="https://sammyharry.github.io/noted/support.html">https://sammyharry.github.io/noted/support.html</a>
+        </p>
+      </article>
+
+      <footer class="footer">
+        <span>© 2026 Sam Harrington. All rights reserved.</span>
+        <span>Privacy contact: <a href="mailto:seharrington@wm.edu">seharrington@wm.edu</a></span>
+      </footer>
+    </main>
+  </body>
+</html>
