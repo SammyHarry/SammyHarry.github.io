@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FiftyPlates Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5f6b7a;
+        --line: #d9dee7;
+        --bg: #f7f9fc;
+        --panel: #ffffff;
+        --accent: #0c58a6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+        color: var(--ink);
+        background: var(--bg);
+      }
+
+      main {
+        width: min(820px, calc(100% - 32px));
+        margin: 48px auto;
+        padding: 32px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+        line-height: 1.15;
+      }
+
+      h2 {
+        margin: 28px 0 8px;
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>FiftyPlates Privacy Policy</h1>
+      <p class="muted">Last updated: May 3, 2026</p>
+
+      <p>FiftyPlates helps you track license plates and states found during road trips. This policy explains what information the app uses and why.</p>
+
+      <h2>Information We Collect</h2>
+      <p>FiftyPlates may collect:</p>
+      <ul>
+        <li>Email address, when you create an email/password account.</li>
+        <li>User ID, created by Supabase Authentication.</li>
+        <li>Trip data, including trip names, selected state plates, timestamps, and trip completion status.</li>
+        <li>Foreground device location, when you allow location access, to detect your current U.S. state while logging plates.</li>
+        <li>Local app data stored on your device for offline use, caching, and sync retry.</li>
+      </ul>
+      <p>FiftyPlates does not collect advertising identifiers and does not use data to track you across other companies' apps or websites.</p>
+
+      <h2>How We Use Information</h2>
+      <p>We use information to:</p>
+      <ul>
+        <li>Create and manage your account.</li>
+        <li>Save, sync, and display your trips and plate logs.</li>
+        <li>Support offline-first use and retry failed sync operations.</li>
+        <li>Detect your current state when location permission is granted.</li>
+        <li>Delete your account and associated trip data when requested.</li>
+      </ul>
+
+      <h2>Location</h2>
+      <p>Location access is optional. If granted, FiftyPlates uses foreground location to estimate the state you are currently in. The app does not save raw latitude or longitude to the FiftyPlates database.</p>
+
+      <h2>Data Storage And Service Providers</h2>
+      <p>FiftyPlates uses Supabase for authentication, database storage, and server functions. Trip data is synced to Supabase for signed-in users. Some data is also stored locally on your device so the app can work offline and recover from temporary network failures.</p>
+
+      <h2>Account Deletion</h2>
+      <p>You can delete an email/password account from the Account screen in the app. Guest users can delete guest data from the Account screen. Deleting account or guest data removes the Supabase user account and associated trip data controlled by FiftyPlates.</p>
+
+      <h2>Data Retention</h2>
+      <p>We keep account and trip data while your account exists. Data is removed when you delete your account, except where retention is required for security, debugging, legal, or operational reasons.</p>
+
+      <h2>Children</h2>
+      <p>FiftyPlates is not directed to children under 13.</p>
+
+      <h2>Changes</h2>
+      <p>We may update this policy as the app changes. The updated policy will be posted on this page.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy or support requests, visit <a href="./support.html">FiftyPlates Support</a>.</p>
+    </main>
+  </body>
+</html>
